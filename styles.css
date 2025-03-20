@@ -1,0 +1,89 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+nav ul {
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 50px 0;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #444;
+}
+
+/* Project Grid */
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact a {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 15px 0;
+}
