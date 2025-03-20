@@ -9,7 +9,7 @@ body, h1, h2, h3, p, ul, li, a {
 /* General styles */
 body {
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    background: #e4d6d6;  /* เปลี่ยนสีพื้นหลังที่นี่ */
     color: #333;
 }
 
